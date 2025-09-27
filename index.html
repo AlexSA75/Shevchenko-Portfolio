@@ -10,12 +10,10 @@
 </head>
 <body class="bg-gray-50 text-gray-800 font-sans transition-colors duration-500">
 
-<!-- Плаваюче меню -->
-  
+<!-- Фіксована шапка -->
 <header id="header" 
-  class="fixed top-0 left-0 w-full z-50 bg-white/70 backdrop-blur-md shadow-md transition-all duration-500">
-  
-  <nav class="max-w-6xl mx-auto flex justify-between items-center px-6 py-4">
+  class="fixed top-0 left-0 w-full z-50 bg-white/80 backdrop-blur-md shadow-md">
+    <nav class="max-w-6xl mx-auto flex justify-between items-center px-6 py-4">
     <!-- Логотип/Ім'я -->
     <div class="text-2xl font-bold text-gray-900">
       Олександр Шевченко
@@ -37,7 +35,9 @@
     </button>
   </nav>
 </header>
-
+  
+<!-- Основна частина -->
+<main class="pt-24"> <!-- відступ, щоб шапка не перекривала контент -->
 
 <!-- Головна секція -->
 <section id="home" class="min-h-screen flex flex-col justify-center items-center text-center pt-24">
@@ -107,6 +107,7 @@
 <script src="script.js"></script>
 </body>
 </html>
+
 
 
 
